@@ -3,7 +3,6 @@ package com.report
 import com.beans.Log
 import com.utils.{JedisPools, RptUtils}
 import org.apache.commons.lang3.StringUtils
-import org.apache.spark.broadcast.Broadcast
 import org.apache.spark.{SparkConf, SparkContext}
 import redis.clients.jedis.Jedis
 
